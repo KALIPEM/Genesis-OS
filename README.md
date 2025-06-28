@@ -1,6 +1,10 @@
 # Genesis-OS
 
-This repository contains simple examples for running a toy universe simulation and training a tiny neural network.
+This repository contains experimental neural network components and provides simple examples for running a toy universe simulation and training a tiny neural network.
+
+## Spin Network
+
+The `SpinNeuron` rotates its input by a Fibonacci-scaled golden angle before applying a linear transformation. `SpinNetwork` stacks these neurons to form a feed-forward model. A simple training example can be found in `examples/train_spin.py`.
 
 ## Installation
 
@@ -45,4 +49,3 @@ Training complete!
 ```
 
 These scripts are minimal demonstrations and can be extended for more complex experiments.
-
