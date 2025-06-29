@@ -40,3 +40,17 @@ The SpinNeuron rotates its input by a Fibonacci-scaled golden angle before apply
 
 These scripts are minimal demonstrations and can be extended for more complex experiments.
 
+
+Cosmic Creation Simulation
+--------------------------
+
+The `cosmic_creation` module implements a conceptual universe algorithm
+that writes each step to an abstract *Brahman* store while building a
+`UniverseDS`. It evolves the state using Fibonacci-scaled golden angle
+rotations, entropy growth and a cyclic time phase.
+
+Run the example script:
+
+```bash
+python examples/run_cosmic_creation.py
+```
